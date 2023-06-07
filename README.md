@@ -8,11 +8,21 @@ Sendder is a chat app code by in deno with [oak]() framwork.
 You should read [deno](https://deno.com) it makes you have more knowlegdegs
 
 ## Installation
+# Using PowerShell (Windows):
+```
+irm https://deno.land/install.ps1 | iex
+```
+# Using Shell (macOS and Linux):
+```
+curl -fsSL https://deno.land/x/install/install.sh | sh
+```
+
+## Usage
+1.Clone
 ```
 git clone https://github.com/TechNguyen/senderchatapp.git
 ```
-## Usage
-
+2. Run the app
 ```
 deno run -A server.js
 ```
